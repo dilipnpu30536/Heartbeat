@@ -1,0 +1,84 @@
+<html>
+<script src="https://jspreadsheet.com/v8/jspreadsheet.js"></script>
+<script src="https://jsuites.net/v5/jsuites.js"></script>
+<link rel="stylesheet" href="https://jspreadsheet.com/v8/jspreadsheet.css" type="text/css" />
+<link rel="stylesheet" href="https://jsuites.net/v5/jsuites.css" type="text/css" />
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.7.0/dist/chart.min.js"></script>
+<script src='https://jspreadsheet.com/v8/plugins/formula-charts.js'></script>
+
+<div id="spreadsheet"></div>
+
+<script>
+jspreadsheet(document.getElementById('spreadsheet'), {
+    worksheets: [{
+        data: [
+            [ 'Line progression', 150, 50, 250, 300, 350, '=CHART("sparkline", B1:F1)' ],
+        ],
+        columns: [
+            { type:'text', width: '200px,' },
+            { type:'number' },
+            { type:'number' },
+            { type:'number' },
+            { type:'number' },
+            { type:'number' },
+            { type:'text', width: '200px,' },
+        ],
+        rows: { 0: { height:'100px'} },
+        worksheetName: 'Line progression',
+    },
+    {
+        data: [
+           [ 'Bar chart', 150, 50, 250, 300, 350, '=CHART("sparkline", B1:F1, "bar")' ],
+        ],
+        columns: [
+           { type:'text', width: '200px,' },
+           { type:'number' },
+           { type:'number' },
+           { type:'number' },
+           { type:'number' },
+           { type:'number' },
+           { type:'text', width: '200px,' },
+        ],
+        rows: { 0: { height:'100px'} },
+        worksheetName: 'Bar chart',
+    },
+    {
+        data: [
+           [ 'Pie chart', 30, 50, 26, 150, 90, '=CHART("sparkline", B1:F1, "pie")' ],
+        ],
+        columns: [
+           { type:'text', width: '200px,' },
+           { type:'number' },
+           { type:'number' },
+           { type:'number' },
+           { type:'number' },
+           { type:'number' },
+           { type:'text', width: '200px,' },
+        ],
+        rows: { 0: { height:'100px'} },
+        worksheetName: 'Pie chart',
+    },
+    {
+        data: [
+           [ '=CHART("bar", B3:M3, [B4:M4, B5:M5, B6:M6]);', '', '', '', '', '', '', '', '', '', '', '', '' ],
+           [ '', '', '', '', '', '', '', '', '', '', '', '', '' ],
+           [ 'Months', 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ],
+           [ 'Recieved1', 500, 520, 550, 550, 1500, 2250, 325, 450, 475, 500, 550, 550 ],
+           [ 'Cleared2', 1500, 100, 500, 250, 900, 2000, 120, 175, 200, 250, 300, 300 ],
+           [ 'Total3', 2000, 620, 1050, 1000, 2400, 420, 445, 625, 675, 7500, 850, 850 ],
+        ],
+        mergeCells: {
+           'A1': [13,1],
+        },
+        defaultColWidth: '60px',
+        columns: [
+           { type:'text', width: '100px,', autoCasting:false },
+        ],
+        rows: { 0: { height:'380px'} },
+        worksheetName: 'Multiple bars',
+    }
+    ]
+});
+</script>
+</html>

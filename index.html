@@ -1,0 +1,718 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Financial Management Dashboard BKN NWR   </title>
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <link rel="pingback" href="https://jeemain.nta.nic.in/xmlrpc.php" />
+    <link rel="stylesheet" href="https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/css/print.css" type="text/css" media="print">
+        <meta name='robots' content='max-image-preview:large' />
+<script type="text/javascript">
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/jeemain.nta.nic.in\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.1.1"}};
+/*! This file is auto-generated */
+!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode,e=(p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0),i.toDataURL());return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(p&&p.fillText)switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])?!1:!s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([129777,127995,8205,129778,127999],[129777,127995,8203,129778,127999])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(e=t.source||{}).concatemoji?c(e.concatemoji):e.wpemoji&&e.twemoji&&(c(e.twemoji),c(e.wpemoji)))}(window,document,window._wpemojiSettings);
+</script>
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 0.07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css' href='https://jeemain.nta.nic.in/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='classic-theme-styles-css' href='https://jeemain.nta.nic.in/wp-includes/css/classic-themes.min.css?ver=1' type='text/css' media='all' />
+<style id='global-styles-inline-css' type='text/css'>
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--duotone--dark-grayscale: url('#wp-duotone-dark-grayscale');--wp--preset--duotone--grayscale: url('#wp-duotone-grayscale');--wp--preset--duotone--purple-yellow: url('#wp-duotone-purple-yellow');--wp--preset--duotone--blue-red: url('#wp-duotone-blue-red');--wp--preset--duotone--midnight: url('#wp-duotone-midnight');--wp--preset--duotone--magenta-yellow: url('#wp-duotone-magenta-yellow');--wp--preset--duotone--purple-green: url('#wp-duotone-purple-green');--wp--preset--duotone--blue-orange: url('#wp-duotone-blue-orange');--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;}:where(.is-layout-flex){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel='stylesheet' id='extra-feature-css-css' href='https://jeemain.nta.nic.in/wp-content/plugins/common_utility/css/extra.features.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='contact-form-7-css' href='https://jeemain.nta.nic.in/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='parichay-login-css-css' href='https://jeemain.nta.nic.in/wp-content/plugins/parichay-sso//css/login.css?ver=1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wsl-widget-css' href='https://jeemain.nta.nic.in/wp-content/plugins/wordpress-social-login/assets/css/style.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='base-css-css' href='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/css/base.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='sliderhelper-css-css' href='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/css/addons/sliderhelper.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='main-css-css' href='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/style.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='jquery-ui-datepicker-css' href='https://jeemain.nta.nic.in/wp-content/plugins/awaas-metaboxes/css/jquery.ui.datepicker.css?ver=1.0' type='text/css' media='all' />
+<link rel='stylesheet' id='js_composer_front-css' href='https://jeemain.nta.nic.in/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='fontawesome-css' href='https://jeemain.nta.nic.in/wp-content/plugins/awaas-accessibility/css/font-awsome.css?ver=6.1.1' type='text/css' media='all' />
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/jquery.min.js?ver=3.6.1' id='jquery-core-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/jquery-migrate.min.js?ver=3.4.0' id='jquery-migrate-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/plugins/awaas-accessibility/js/external.js?ver=6.1.1' id='external-link-js'></script>
+<link rel="https://api.w.org/" href="https://jeemain.nta.nic.in/wp-json/" /><link rel="alternate" type="application/json" href="https://jeemain.nta.nic.in/wp-json/wp/v2/pages/4637" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://jeemain.nta.nic.in/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://jeemain.nta.nic.in/wp-includes/wlwmanifest.xml" />
+<link rel="canonical" href="https://s3f8e59f4b2fe7c5705bf878bbd494ccdf-loginx.s3waas.gov.in/" />
+<link rel='shortlink' href='https://jeemain.nta.nic.in/' />
+<link rel="alternate" type="application/json+oembed" href="https://jeemain.nta.nic.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fs3f8e59f4b2fe7c5705bf878bbd494ccdf-loginx.s3waas.gov.in%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://jeemain.nta.nic.in/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fs3f8e59f4b2fe7c5705bf878bbd494ccdf-loginx.s3waas.gov.in%2F&#038;format=xml" />
+    <noscript>
+        <style>
+            #topBar #accessibility ul li .goiSearch, #topBar1 #accessibility ul li .goiSearch{ visibility: visible;}
+            #topBar #accessibility ul li .socialIcons ul, #topBar1 #accessibility ul li .socialIcons ul { background: #fff !important;}
+            #topBar #accessibility ul li .goiSearch, #topBar1 #accessibility ul li .goiSearch{ right: 0; left: inherit;}
+            .nav li a:focus > ul { left: 0; opacity: 0.99;}
+            a:focus, button:focus, .carasoleflex-wrap .flexslider .slides > li a:focus, .flexslider .slides>li a:focus
+            { outline: 3px solid #ff8c00 !important;}
+            .flexslider .slides>li { display:block !important;}
+            .flexslider .slides img { width:auto !important;}
+            .nav li.active > a, .nav li > a:hover, .nav li > a:focus, .nav ul li a:hover,
+            .nav li:hover > a{ border-top:none; color:#ffffff;}
+            .nav li.active > a{ border:0;}
+            .nav ul{ opacity:1; left:0; position:static !important; width:auto; border:0;}
+            .nav li{ position:static !important; display:block; float:none; border:0 !important;}
+
+            .nav li > a { float: none;  display: block;  background-color: #ff9f08 !important;  color: #ffffff; margin: 0; padding: 0px 15px;
+                border-radius: 0; border-bottom: 1px solid #ffffff !important;   position: static !important;  border-top: 0;  font-size: 14px !important;}
+
+            .nav ul.sub-menu li > a{ background-color:#464141 !important; font-size:12px !important; padding:0 25px;}
+
+            .style-1 .menuWrapper, .style-2 .menuWrapper, .style-6 .menuWrapper, .style-5 .menuWrapper{ background:#e1e1e1 !important;}
+            .style-1 .nav li > a, .style-1 .nav li > a:hover{background-color: #875506 !important;}
+            .style-1 .nav ul.sub-menu li > a, .style-1 .nav ul.sub-menu li > a:hover{ background-color:#3e2908 !important;}
+
+            .style-2 .nav li > a, .style-2 .nav li > a:hover{background-color: #11372a !important;}
+            .style-2 .nav ul.sub-menu li > a, .style-2 .nav ul.sub-menu li > a:hover{ background-color:#677314 !important;}
+
+            .style-6 .nav li > a, .style-6 .nav li > a:hover{background-color: #f65a64 !important;}
+            .style-6 .nav ul.sub-menu li > a:hover{ background-color:#fff !important;}
+            .style-6 .nav ul.sub-menu li > a { background-color:transparent !important; }
+            .style-6 .menuWrapper .nav li ul li{ border-bottom:1px solid transparent !important;}
+            .style-6 .menuWrapper .nav li a{ border-radius:0 !important; color:#fff !important;}
+            .style-6 .menuWrapper .nav li a:hover{ color:#000 !important;}
+
+            .style-5 .nav li > a, .style-5 .nav li > a:hover{background-color: #fd9c29 !important; color:#ffffff !important;}
+            .style-5 .nav ul.sub-menu li > a, .style-5 .nav ul.sub-menu li > a:hover{ background-color:#464141 !important; color:#ffffff !important;}
+            .style-6 .menuWrapper .nav li ul li a {    margin: 0;    padding: 7px 15px;}
+
+            ul li .socialIcons{ visibility:visible !important;}
+
+        </style>
+    </noscript>
+    <meta name="generator" content="Powered by WPBakery Page Builder - drag and drop page builder for WordPress."/>
+<style data-type="vc_shortcodes-custom-css">.vc_custom_1642837850966{padding-top: 35px !important;padding-bottom: 20px !important;}.vc_custom_1581920934061{padding-top: 35px !important;padding-bottom: 30px !important;}.vc_custom_1568981760284{margin-bottom: -4px !important;}.vc_custom_1572839845724{padding-top: 0px !important;padding-bottom: 0px !important;}.vc_custom_1642837577245{padding-top: 0px !important;}.vc_custom_1575455456864{padding-top: 0px !important;}</style><noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/html5shiv.min.js"></script>
+    <script src="https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/respond.min.js"></script>
+    <![endif]-->
+    <script>
+        var ajaxurl = "https://jeemain.nta.nic.in/wp-admin/admin-ajax.php";
+    </script>
+
+</head>
+<body class="home page-template-default page page-id-4637 lang-en style-1 home-8 wpb-js-composer js-comp-ver-6.1 vc_responsive">
+<header id="mainHeader">
+
+    <!--topBar start-->
+    <div id="topBar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <div class="push-right" aria-label="Primary">
+                        <div id="accessibility">
+                            <ul id="accessibilityMenu" class="clearfix">
+                                <li>
+                                    <a href="#SkipContent" class="skipContent" aria-label="Skip to main content" title="Skip to main content">
+                                        <span class="m-hide">Skip to main content</span>
+                                        <span class="icon-skip-to-main m-show"></span>
+                                    </a>
+                                </li>
+                                                                																<li class="top-sitemap">
+                                    <a href="https://jeemain.nta.nic.in/sitemap/" aria-label="Sitemap"  title="Sitemap">
+                                    <img class="show-con" src="https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/images/sitemap.svg" title="Sitemap Icon" alt="Sitemap Icon" />
+                                    <span class="hide">Sitemap</span></a>
+                                </li> 
+                                                                <li>
+                                    <a href="javascript:void(0);" title="Accessibility Links" aria-label="Accessibility Links" class="accessible-icon" role="button" data-toggle="dropdown"><span class="tcon">Accessibility Links</span>
+                                        <img class="show-con" src="https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/images/accessibility.svg" title="Accessibility Icon" alt="Accessibility Icon" />
+                                    </a>
+                                    <ul class="accessiblelinks textSizing" aria-label="Font size and Contrast controls">
+                                        <li class="fontSizeEvent"><a data-selected-text="selected" data-event-type="increase" href="javascript:void(0);" data-label="Font Size Increase" title="Font Size Increase" aria-label="Font Size Increase"><span aria-hidden="true">A+</span> <span class="tcon">Font Size Increase</span></a></li>
+                                        <li class="fontSizeEvent"><a data-selected-text="selected" data-event-type="normal" href="javascript:void(0);" data-label="Normal Font" title="Normal Font - Selected" aria-label="Normal Font - Selected"><span aria-hidden="true">A</span> <span class="tcon">Normal Font - Selected</span></a></li>
+                                        <li class="fontSizeEvent" ><a data-selected-text="selected" data-event-type="decrease" href="javascript:void(0);" data-label="Font Size Decrease" title="Font Size Decrease" aria-label="Font Size Decrease"><span aria-hidden="true">A-</span> <span class="tcon">Font Size Decrease</span></a></li>
+                                        <li class="highContrast dark tog-con">
+                                            <a href="javascript:void(0);" title="High Contrast" aria-label="High Contrast"><span aria-hidden="true">A</span> <small class="tcon">High Contrast</small></a>
+                                        </li>
+                                        <li class="highContrast light">
+                                            <a class="link-selected" href="javascript:void(0);" title="Normal Contrast - Selected" aria-label="Normal Contrast - Selected"><span aria-hidden="true">A</span> <small class="tcon">Normal Contrast</small></a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                                            </ul>
+                        </div>
+                    </div>
+                    <div class="push-left">
+                        <div class="govBranding">
+                            <ul>
+                                <li>
+                                    <a href="https://india.gov.in" >
+                                        <span lang="hi">भारत सरकार <br></span><span class="hide"> / </span>  Government of India                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://education.gov.in/">
+                                        <span lang="hi">रेल मंत्रालय <br></span><span class="hide"> / </span> Ministry of Railways                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--topBar end-->
+
+    <!--header middle start-->
+    <div class="header-wrapper">
+        <div class="container">
+            <div class="row ecounse-logo-wpr">
+                <div class="col-md-3">
+                    <div class="logo main-logo">
+                                                    <a href="http://127.0.0.1:5500/" class="site_logo" rel="home" >
+                                                                        <img id="logo" class="emblem" src="https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/images/emblem.svg" alt="State Emblem of India">
+                                
+                                <div class="logo_text">
+                                    <strong lang="hi">लेखा विभाग</strong><h1 class="h1-logo"><span class="hide"> / </span>Accounting Department</h1>                                </div>
+                            </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="logo dept-logo">
+                        <div class="site_logo">
+                            <div class="logo_text">
+                                <strong lang="hi">वित्तीय प्रबंधन डैशबोर्ड</strong>
+                                <div class="h1-logo logo-en-text heading1">Financial Management Dashboard</div>
+                                                                    <p class="dept-subtitle">2023</p>
+                                                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 header-rightlogo">
+                    <div class="header-right hidden-xs push-right">
+                                                                            <a aria-label="Home Page - External site that opens in a new window" href="http://127.0.0.1:5500/" target= "_blank" title="लेखा सूचना प्रबंधन प्रणाली">
+                                <img class="sw-logo" src="https://aims.indianrailways.gov.in/IPAS/loginImages/G20_Logo.jpg" alt="Home Page">
+                            </a>
+                                                                                            </div>
+                    <a class="menuToggle" href="javascript:void(0);"> <span class="icon-menu" aria-hidden="true"></span> <span class="menu-text">Menu Toggle</span> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--header middle end-->
+
+    <!--main menu start-->
+    <div class="menuWrapper">
+
+        <div class="menuMoreText hide">More</div>
+
+
+        <div class="container">
+            <nav class="menu"><ul id="menu-header-en" class="nav clearfix"><li id="menu-item-6561" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item menu-item-6561 active "><a href="/" aria-current="page">Home</a></li>
+<li id="menu-item-6562" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6562 has-sub"><a href="#" aria-haspopup="true" aria-expanded="false">About Us<span class="indicator"></span></a>
+<ul aria-hidden="true"  class="sub-menu">
+	<li id="menu-item-6696" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6696 has-sub-child"><a href="http://127.0.0.1:5501/Plan%20Head.html" tabindex="-1">About Plan Head</a></li>
+	<li id="menu-item-6570" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6570 has-sub-child"><a href="http://127.0.0.1:5501/pcdo%2016-17.html" tabindex="-1">About BR DR</a></li>
+	<li id="menu-item-7186" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7186 has-sub-child"><a href="https://www.ircep.gov.in/IRPSM" tabindex="-1">About  2023</a></li>
+</ul>
+</li>
+<li id="menu-item-6563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6563 has-sub"><a href="#" aria-haspopup="true" aria-expanded="false">Administrations<span class="indicator"></span></a>
+<ul aria-hidden="true"  class="sub-menu">
+	<li id="menu-item-6572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6572 has-sub-child"><a href="https://www.ircep.gov.in/IRPSM" tabindex="-1">IRPSM</a></li>
+	<li id="menu-item-6573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6573 has-sub-child"><a href="https://sso.indianrailways.gov.in/" tabindex="-1">Indian Railways</a></li>
+</ul>
+</li>
+<li id="menu-item-6563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6563 has-sub"><a href="#" aria-haspopup="true" aria-expanded="false">Pension<span class="indicator"></span></a>
+    <ul aria-hidden="true"  class="sub-menu">
+        <li id="menu-item-6572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6572 has-sub-child"><a href="#" tabindex="-1">Normal Retirement</a></li>
+        <li id="menu-item-6573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6573 has-sub-child"><a href="#" tabindex="-1">ONR Cases</a></li>
+        <li id="menu-item-6572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6572 has-sub-child"><a href="#" tabindex="-1">Regrant Cass</a></li>
+        <li id="menu-item-6573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6573 has-sub-child"><a href="#" tabindex="-1">Revision-CPC</a></li>
+        <li id="menu-item-6572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6572 has-sub-child"><a href="#" tabindex="-1">NPS Cases (Death)</a></li>
+        <li id="menu-item-6573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6573 has-sub-child"><a href="http://127.0.0.1:5501/deposite%20pension.html" tabindex="-1">Pension Suspenses/Deposite Pension</a></li>
+    </ul>
+    </li>
+    <li id="menu-item-6563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6563 has-sub"><a href="#" aria-haspopup="true" aria-expanded="false">Efficiency<span class="indicator"></span></a>
+        <ul aria-hidden="true"  class="sub-menu">
+            <li id="menu-item-6572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6572 has-sub-child"><a href="http://127.0.0.1:5501/mpr.html" tabindex="-1">MPR</a></li>
+            <li id="menu-item-6573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6573 has-sub-child"><a href="http://127.0.0.1:5501/pcdo.html" tabindex="-1">PCDO</a></li>
+            <li id="menu-item-6572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6572 has-sub-child"><a href="#" tabindex="-1">PPT</a></li>
+            <li id="menu-item-6573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6573 has-sub-child"><a href="#" tabindex="-1">Word</a></li>
+        </ul>
+        </li>
+        <li id="menu-item-7016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7016"><a href="#">Finance-I</a></li>
+        <li id="menu-item-7016" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7016"><a href="#">Finance-II</a></li>
+<li id="menu-item-6563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6563 has-sub"><a href="#" aria-haspopup="true" aria-expanded="false">Expenditure<span class="indicator"></span></a>
+        <ul aria-hidden="true"  class="sub-menu">
+            <li id="menu-item-6572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6572 has-sub-child"><a href="#" tabindex="-1">BR-DR</a></li>
+        </ul>
+        </li>
+<li id="menu-item-6577" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-6577 has-sub"><a href="https://jeemain.nta.nic.in/archive/" aria-haspopup="true" aria-expanded="false">Archive<span class="indicator"></span></a>
+<ul aria-hidden="true"  class="sub-menu">
+	<li id="menu-item-7162" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7162 has-sub-child"><a href="http://127.0.0.1:5501/multiplegraph.html" tabindex="-1">e-multiplegraph</a></li>
+	<li id="menu-item-7877" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7877 has-sub has-sub-child"><a href="#" tabindex="-1" aria-haspopup="true" aria-expanded="false">e-PDF 2023<span class="indicator"></span></a>
+	<ul aria-hidden="true"  class="sub-menu">
+		<li id="menu-item-7880" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7880 has-sub-child"><a href="Contact us.pdf" tabindex="-1">Contact through Email</a></li>
+		<li id="menu-item-7881" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7881 has-sub-child"><a href="Plan Head.pdf" tabindex="-1">Plan Head 2023</a></li>
+		<li id="menu-item-7882" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7882 has-sub-child"><a href="MPR 2016-17.pdf" tabindex="-1">MPR 2016-17</a></li>
+	</ul>
+</li>
+
+<li id="menu-item-7878" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-7878 has-sub has-sub-child"><a href="#" tabindex="-1" aria-haspopup="true" aria-expanded="false">e-Services 2023<span class="indicator"></span></a>
+	<ul aria-hidden="true"  class="sub-menu">
+		<li id="menu-item-7883" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7883 has-sub-child"><a href="https://" tabindex="-1"> Paper 1 – Paper</a></li>
+		<li id="menu-item-7884" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7884 has-sub-child"><a href="https://" tabindex="-1">Paper 2 &#8211; B.Plan</a></li>
+		<li id="menu-item-7887" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7887 has-sub-child"><a href="https://" tabindex="-1">Session-2: Paper 1</a></li>
+		<li id="menu-item-7885" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-7885 has-sub-child"><a href="http://127.0.0.1:5501/Graph.html" tabindex="-1"> penssion-2: railway 3</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+
+<li id="menu-item-6563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6563 has-sub"><a href="#" aria-haspopup="true" aria-expanded="false">Books<span class="indicator"></span></a>
+    <ul aria-hidden="true"  class="sub-menu">
+        <li id="menu-item-6572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6572 has-sub-child"><a href="http://127.0.0.1:5501/planhead.html" tabindex="-1">Plan Head</a></li>
+    </ul>
+    </li>
+<li id="menu-item-6563" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-6563 has-sub"><a href="#" aria-haspopup="true" aria-expanded="false">Login<span class="indicator"></span></a>
+    <ul aria-hidden="true"  class="sub-menu">
+        <li id="menu-item-6572" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6572 has-sub-child"><a href="https://www.ircep.gov.in/IRPSM" tabindex="-1">Admin Login</a></li>
+        <li id="menu-item-6573" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6573 has-sub-child"><a href="https://sso.indianrailways.gov.in/" tabindex="-1">Other Login</a></li>
+    </ul>
+    </li>
+</ul></nav>
+        </div>
+    </div>
+    <!--main menu end-->
+
+    <div id="overflowMenu">
+        <div class="ofMenu">
+            <ul></ul>
+        </div>
+        <a href="#" title="Close" class="closeMenu"><span class="icon-close" aria-hidden="true"></span> Close</a>
+    </div>
+
+</header>
+
+
+<main>
+
+<div id="SkipContent"></div>
+
+    <!--section-row start-->
+	<section class="section-row apply-in-home">
+		<div class="container">
+
+			
+				</div>
+			<div class="container" id="row-content">
+						<div class="row">
+				<div class="col-xs-12">
+					<div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid accent-fixed-color"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1572839845724"><div class="wpb_wrapper">            <div class="news-ticker-horizontal  nth-flexslider color-white  title-left show-controls  text-center " >
+                    <h2 class="pd-15 title-font-bold">LATEST NEWS</h2>
+                <div class="newsticker flexslider pd-15">
+            <ul class="slides">
+                                        <li>
+                                                <a class="with-urlchange" href="http://127.0.0.1:5501/planhead.html">
+                        Plan Head                                                </a>
+                                            </li>
+                                <li>
+                                                <a class="with-urlchange" href="http://127.0.0.1:5501/mpr.html">
+                       MPR                                                </a>
+                                            </li>
+                                <li>
+                                                <a class="with-urlchange" href="http://127.0.0.1:5501/pcdo%2016-17.html">
+                         Download                                                </a>
+                                            </li>
+                        </ul>
+        </div>
+        
+    </div>
+    <script>
+        jQuery(document).ready(function($) {
+            jQuery(".newsticker").flexslider({
+                animation: "slide",
+                directionNav: true,
+                pausePlay: true,
+                maxItems: 1,
+                controlNav: false,
+                slideshowSpeed: 5000,
+                prevText: "<span class='hide'>Previous</span>",
+                nextText: "<span class='hide'>Next</span>",
+                pauseText: "<span class='hide'>Pause</span>",
+                playText: "<span class='hide'>PlayPlay</span>",
+                start: function(){
+                    $('.newsticker ul.slides li.clone a').each(function() {
+                        $(this).replaceWith($(this).html());
+                    })
+                }
+            });
+        });
+    </script>
+    </div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div class="vc_row wpb_row vc_row-fluid vc_custom_1642837850966"><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper"><div class="vc_tta-container" data-vc-action="collapse"><div class="vc_general vc_tta vc_tta-tabs vc_tta-color-grey vc_tta-style-classic vc_tta-shape-rounded vc_tta-spacing-1  tabstyle-eight vc_tta-tabs-position-top vc_tta-controls-align-left"><div class="vc_tta-tabs-container"><ul class="vc_tta-tabs-list"><li class="vc_tta-tab vc_active" data-vc-tab><a href="#1648447930282-deb48cc0-95ec" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">Public Notices</span></a></li><li class="vc_tta-tab" data-vc-tab><a href="#1648447930283-1fd226ef-8407" data-vc-tabs data-vc-container=".vc_tta"><span class="vc_tta-title-text">News &amp; Events</span></a></li></ul></div><div class="vc_tta-panels-container"><div class="vc_tta-panels"><div class="vc_tta-panel vc_active" id="1648447930282-deb48cc0-95ec" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title"><a href="#1648447930282-deb48cc0-95ec" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">Public Notices</span></a></h4></div><div class="vc_tta-panel-body">        <div class="gen-list    no-border no-bg  padding-20 border-radius-medium default-list  ">
+                    <ul>
+                            <li>
+                    <a download href="http://127.0.0.1:5501/Plan%20Head.html" title="download" >Establishment</a>
+                                    </li>
+                                <li>
+                    <a download href="http://127.0.0.1:5501/pcdo%2016-17.html" title="download" >Provident Fund</a>
+                                    </li>
+                                <li>
+                    <a download href="http://127.0.0.1:5501/Contat%20Us.html" title="download" >Record</a>
+                                    </li>
+                                <li>
+                    <a download href="http://127.0.0.1:5501/MPR%202016-17.html" title="download" >ISA Branch </a>
+                                    </li>
+                                <li>
+                    <a download href="http://127.0.0.1:5501/pcdo%2016-17.html" title="download" >PCDO</a>
+                                    </li>
+                                <li>
+                    <a download href="mpr.html" title="download" >MPR</a>
+                                    </li>
+                                <li>
+                    <a download href="http://127.0.0.1:5501/Plan%20Head.html" title="download" >PLAN <HEAD></HEAD> 2023-24</a>
+                                    </li>
+                                <li>
+                    <a download href="http://127.0.0.1:5501/pcdo%2016-17.html" title="download" >BR DR1</a>
+                                    </li>
+                                <li>
+                    <a  href=""  >Admins are requested to fill in the Application Form very carefully. No corrections will be permitted once the Application Form is submitted.</a>
+                                    </li>
+                        </ul>
+                </div>
+        
+      </div></div><div class="vc_tta-panel" id="1648447930283-1fd226ef-8407" data-vc-content=".vc_tta-panel-body"><div class="vc_tta-panel-heading"><h4 class="vc_tta-panel-title"><a href="#1648447930283-1fd226ef-8407" data-vc-accordion data-vc-container=".vc_tta-container"><span class="vc_tta-title-text">News &amp; Events</span></a></h4></div><div class="vc_tta-panel-body">      <div class="gen-list    no-border no-bg  padding-0 border-radius-none square-list ">
+              <p>No post to display</p>        </div>
+    
+      </div></div></div></div></div></div></div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">
+	<div class="wpb_text_column wpb_content_element " >
+		<div class="wpb_wrapper">
+			<h2>INTRODUCTION</h2>
+<p class="text-justify">AIMS is a system of automating payroll processing and financial operations. The system is comprehensive and user-friendly in carrying out the financial activities in the railway office. IPAS is mainly divided into two categories.</p>
+<p>The accounting reform will position Indian Railways to efficiently prepare financial 
+    statements that comply with accounting standards and reflect the profits/losses in providing 
+    services, manufacturing and maintenance across Indian Railways and according to lines of 
+    business and service through the definition, design, development and implementation of a 
+    robust, modern financial management information system that is commensurate with and 
+    aligned to the business imperatives of Indian Railways. It has two phases: a design phase and 
+    an implementation phase.</p>
+<p>&nbsp;</p>
+
+		</div>
+	</div>
+</div></div></div><div class="wpb_column vc_column_container vc_col-sm-6"><div class="vc_column-inner"><div class="wpb_wrapper">        <div class="gen-list    yes-bg  padding-20 border-radius-medium default-list  ">
+                        <h2 class="title-font-normal title-font-black">Plan Head Activity</h2>
+                    <ul>
+                            <li>
+                    <a  href="http://127.0.0.1:5501/Plan%20Head.html" target="_self" >Establishment</a>
+                                    </li>
+                                <li>
+                    <a  href="http://127.0.0.1:5501/pcdo%2016-17.html" target="_self" >Provident Fund</a>
+                                    </li>
+                                 <li>
+                   <a  href="http://127.0.0.1:5501/Plan%20Head.html" target="_self" >Record</a>
+                                </li>
+                            <li>
+                <a  href="http://127.0.0.1:5501/pcdo%2016-17.html" target="_self" >ISA Branch</a>
+                                </li>                    
+                        </ul>
+                </div>
+        
+      </div></div></div></div><div data-vc-full-width="true" data-vc-full-width-init="false" class="vc_row wpb_row vc_row-fluid accent-fixed-color tab-rowbg-home8 vc_custom_1581920934061 vc_column-gap-30"><div class="wpb_column vc_column_container vc_col-sm-3"><div class="vc_column-inner vc_custom_1642837577245"><div class="wpb_wrapper">
+		<div class="gen-list no-border no-bg padding-20 border-radius-medium default-list   medium-font fore-color-white ">
+		<h2 class="title-font-bold title-font-black"><span class="fa fa-file-text-o"></span> Helpdesk</h2>		<ul>
+						<li  class="  ">
+								<a href="http://127.0.0.1:5501/contact.html" title="Contact Us"  style="">
+								<span class="list-icon -bg  border-radius-round"></span>
+								<div class="list-text">Contact US				</div>
+								</a>
+			 				</li>
+						</ul>
+				</div>
+		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+		<div class="gen-list no-border no-bg padding-20 border-radius-medium default-list   medium-font fore-color-white ">
+		<h2 class="title-font-bold title-font-black"><span class="fa fa-file-text-o"></span> Additional Links</h2>		<ul>
+						<li  class="  ">
+								<a href="https://indianrailways.gov.in/" title="Ministry of Railways" target=" _blank" style="">
+								<span class="list-icon -bg  border-radius-round"></span>
+								<div class="list-text">Ministry Of Railways				</div>
+								</a>
+			 				</li>
+						</ul>
+				</div>
+		</div></div></div><div class="wpb_column vc_column_container vc_col-sm-4"><div class="vc_column-inner"><div class="wpb_wrapper">
+		<div class="gen-list no-border no-bg padding-0 border-radius-medium default-list  col-two medium-font fore-color-white ">
+		<h2 class="title-font-bold title-font-black">Important Links</h2>		<ul>
+						<li  class="  ">
+								<a href="https://railmadad.indianrailways.gov.in/madad/final/home.jsp" title="Rail madad"  style="">
+								<span class="list-icon -bg  border-radius-round"></span>
+								<div class="list-text">Rail Madad				</div>
+								</a>
+			 				</li>
+								<li  class="  ">
+								<a href="https://nwr.indianrailways.gov.in/view_section.jsp?fontColor=black&backgroundColor=LIGHTSTEELBLUE&lang=0&id=0,1" title="N W R" target=" _blank" style="">
+								<span class="list-icon -bg  border-radius-round"></span>
+								<div class="list-text">NWR				</div>
+								</a>
+			 				</li>
+								<li  class="  ">
+								<a href="https://indianrailways.gov.in/railwayboard/view_section.jsp?lang=0&id=0,1,304,366,555,862,1527" title="Indian Railways" target=" _blank" style="">
+								<span class="list-icon -bg  border-radius-round"></span>
+								<div class="list-text">Indian Railways				</div>
+								</a>
+			 			
+			 				</li>
+						</ul>
+				</div>
+		</div></div></div></div><div class="vc_row-full-width vc_clearfix"></div><div data-vc-full-width="true" data-vc-full-width-init="false" data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_custom_1568981760284 vc_row-no-padding"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner vc_custom_1575455456864"><div class="wpb_wrapper">	
+    <section class="footerScrollbarWrapper footerlogocarousel withbg withborder " aria-label="Other Important Links">
+        <div class="footerlogocarousel-outer item-count-7" data-flexcontrol='{"animation":"slide","animationLoop":"true","itemWidth":201,"minItems":2,"move":1,"controlNav":false,"pauseText":"Pause","playText":"Play","slideshow":true,"directionNav":true,"pausePlay":true}'>
+            <div class="footerScrollbar flexslider">
+                <ul class="slides" aria-label="Important Sites">
+                                                <li>
+                                                                    <a href="http://127.0.0.1:5500/" target="_blank">
+                                        <img src="https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/bfi_thumb/2021102732-pj6x3bx2nxl6b8po4v2f681bdymq112svun9ln7sa0.png"  alt=" services"/>                                    </a>
+                                                                                                </li>
+                                                        <li>
+                                                                    <a href="https://rtionline.gov.in/index.php" target="_blank">
+                                        <img src="https://www.primepost.in/wp-content/uploads/2020/10/Callous-PIOs-failing-Appellate-Authorities.jpg"  alt="RTI"/>                                    </a>
+                                                                                                </li>
+                                                        <li>
+                                                                    <a href="http://127.0.0.1:5500/" target="_blank">
+                                        <img src="https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/bfi_thumb/2021102766-pj6x3az8h3jvzmr1acnslq9uskrctbz2jpzs4d96g8.png"  alt=" Services Platform"/>                                    </a>
+                                                                                                </li>
+                                                        <li>
+                                                                    <a href="http://127.0.0.1:5500/" target="_blank">
+                                        <img src="https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/bfi_thumb/2022062866-pqz2lzymiewv06ouq44n533ki03arz7z8en32sutpk.png"  alt="All India Railways"/>                                    </a>
+                                                                                                </li>
+                                                        <li>
+                                                                    <a href="http://127.0.0.1:5500/" target="_blank">
+                                        <img src="https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/bfi_thumb/2021122838-pj6x3a1ea9ilo0sefu9618ie76vzlmvc7lcan3akmg.png"  alt="National "/>                                    </a>
+                                                                                                </li>
+                                                        <li>
+                                                                    <a href="http://127.0.0.1:5500/" target="_blank">
+                                        <img src="https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/bfi_thumb/2021102792-pj6x3bx2nxl6b8po4v2f681bdymq112svun9ln7sa0.png"  alt="U DISE"/>                                    </a>
+                                                                                                </li>
+                                                        <li>
+                                                                    <a href="http://127.0.0.1:5500/" target="_blank">
+                                        <img src="https://cdnbbsr.s3waas.gov.in/s3f8e59f4b2fe7c5705bf878bbd494ccdf/uploads/bfi_thumb/2021102786-pj6x3bx2nxl6b8po4v2f681bdymq112svun9ln7sa0.png"  alt="Collab CAD"/>                                    </a>
+                                                                                                </li>
+                                            </ul>
+            </div>
+        </div>
+		    </section>
+	     <script>
+     jQuery(document).ready(function($){
+        $(".footerScrollbar").each(function () {
+            if($(this).find('.flex-viewport').length == 0){
+                $(this).flexslider($(this).parent().data('flexcontrol'));
+            }
+
+        })
+    });
+    </script>
+    </div></div></div></div><div class="vc_row-full-width vc_clearfix"></div>
+				</div>
+			</div>
+					</div>
+	</section>
+    <!--section-row end-->
+
+    </main>
+
+<footer id="mainFooter">
+    <div class="footer-top">
+        <div class="container">
+            <div class="col-xs-12 text-center">
+                <div class="footerMenu"><ul id="menu-footer-en" class="menu"><li id="menu-item-6792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6792"><a href="https://">Copyright Policy</a></li>
+<li id="menu-item-6793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6793"><a href="https://">Privacy Policy</a></li>
+<li id="menu-item-6794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6794"><a href="https://">Hyperlink Policy</a></li>
+<li id="menu-item-6795" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-6795"><a href="https://">Terms and Conditions</a></li>
+<li id="menu-item-7038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7038"><a href="https://">Help</a></li>
+</ul></div>            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    
+                    <div class="copyRights"> <div class="copyRightsText">
+					<p class="mr-none">Content Owned and Maintained by                  Accounts Department                   
+                                    </p>
+				<p class="mr-bottom10">Designed, Developed and hosted by <a href="http://www." target="_blank">Dilip Kumar</a>, <br><a href="http://" target="_blank"> C.O Accounts Section Bikaner</a>, Government of India</p>
+                            <p>Last Updated: <strong>Sept 13, 2023</strong></p>                        </div>
+
+                        <div class="copyRightsLogos">
+                            <a href="http://127.0.0.1:5500/"><img src="https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/images/s3waaslogo.svg" class="swaas" alt="Secure, Scalable and Sugamya Website as a Service"></a>
+                            <a href="http://127.0.0.1:5500/"><img src="https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/images/Nic_logo.svg" class="nic"  alt="National Informatics Centre"></a>
+                            <a href="http://127.0.0.1:5500/"><img src="https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/images/Digital-India-white.svg" alt="Digital India"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!--a class="top" href="#top"><span class="icon-arrow-top"></span></a-->
+
+    <script>
+        let excludeExternalLinks = "";
+
+        jQuery(document).ready(function($){
+
+            if (!String.prototype.startsWith) {
+                    String.prototype.startsWith = function(searchString, position){
+                    position = position || 0;
+                    return this.substr(position, searchString.length) === searchString;
+                };
+            }
+
+            jQuery('body').on('targetExternalLinks',function(){
+
+                var isExternal = function(url) {
+                    if( !url.match('^(https?:)?(\\/\\/).*$')) return false;
+                    return !(location.href.replace("http://", "").replace("https://", "").split("/")[0] === url.replace("http://", "").replace("https://", "").split("/")[0]);
+                }
+                var isExternalExcluded = function(url) {
+                    if( !url.match('^(https?:)?(\\/\\/).*$')) return false;
+                    if(excludeExternalLinks.indexOf(url) == -1) return false;
+                    return true
+                }
+
+                jQuery('a').each(function(){
+                    var href = jQuery(this).attr('href');
+                    if(typeof href == 'undefined' ){
+                        jQuery(this).attr('href','javascript:void(0)');
+                        href = '#';
+                    }
+
+                    if(jQuery(this).attr('hreflang') !== undefined){
+
+                        if($(this).attr('hreflang') == 'od'){
+                            $(this).attr({  hreflang: 'or', lang:'or'});
+                        }
+                        if(jQuery(this).attr('aria-label') !== typeof undefined){
+                            jQuery(this).attr('aria-label', jQuery(this).text()).attr('title',jQuery(this).text());
+                        }
+                    }else if(isExternal(href)  ){
+                            if(
+                                href.indexOf('cdn.s3waas.gov.in') == -1 
+                                && href.indexOf('auth.s3waas.gov.in') == -1
+                                && href.indexOf('cdnbbsr.s3waas.gov.in') == -1
+                                && href.indexOf('parichay') == -1
+                                && !jQuery(this).hasClass('fancybox.iframe')
+                                && !jQuery(this).hasClass('fancybox')
+                              ) {
+                                if(typeof jQuery(this).attr('onclick') === "undefined" && !isExternalExcluded(href)){
+                                    jQuery(this).attr("onclick", "return confirm('You are being redirected to an external website. Account cannot be held responsible for external websites content & privacy policies.');");
+                                }
+                            }
+
+                            if(typeof jQuery(this).attr('aria-label') === "undefined" || typeof jQuery(this).attr('title') === "undefined"){
+                                var text = '';
+                                if(jQuery(this).text().trim() !== ''){
+                                    text = jQuery(this).text().trim()+' - ';
+                                }else {
+                                    text = jQuery(this).attr('href')+' - ';
+                                }
+
+                                if(
+                                    href.indexOf('cdn.s3waas.gov.in') == -1 
+                                    && href.indexOf('auth.s3waas.gov.in') == -1
+                                    && href.indexOf('cdnbbsr.s3waas.gov.in') == -1
+                                    && href.indexOf('parichay') == -1
+                                    && !jQuery(this).hasClass('fancybox.iframe')
+                                    && !jQuery(this).hasClass('fancybox')
+                                ){
+
+                                    if(typeof jQuery(this).attr('aria-label') === "undefined"){
+                                        jQuery(this).attr('aria-label', text + 'External site that opens in a new window');
+                                    }
+                                    if(typeof jQuery(this).attr('title') === "undefined"){
+                                        jQuery(this).attr('title', text + 'External site that opens in a new window');
+                                    }
+
+                                }
+                            }
+
+                            if(href.indexOf('auth.s3waas.gov.in') == -1 && href.indexOf('parichay') == -1) {
+                                jQuery(this).prop('target', '_blank');
+                                jQuery(this).prop('rel', 'noopener noreferrer');
+                            }
+                    }
+                });
+
+            })
+            jQuery('body').trigger('targetExternalLinks');
+
+            jQuery('.flex-direction-nav a.flex-prev').attr({'title' : 'Previous','aria-label':'Previous'});
+			jQuery('.flex-pauseplay a.flex-pause').attr({'title' : 'Play/Pause','aria-label':'Play/Pause'});
+			jQuery('.flex-direction-nav a.flex-next').attr({'title' : 'Next','aria-label':'Next'});
+
+            jQuery('a[download]').each(function(){
+
+                var ariaLabelPrevious = jQuery(this).prev().attr('aria-label');
+                if(typeof ariaLabelPrevious !== typeof undefined){
+                    var ariaLabel = jQuery(this).prev().attr('aria-label').split('-')[0];
+                    ariaLabel = 'Download ' + ariaLabel;
+                    jQuery(this).attr('aria-label',ariaLabel).removeAttr('aria-hidden');
+                }
+            });
+        });
+    </script>
+    <link rel='stylesheet' id='news-ticker-style-css' href='https://jeemain.nta.nic.in/wp-content/plugins/awas-shortcode/assets/css/news-ticker.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='vc_tta_style-css' href='https://jeemain.nta.nic.in/wp-content/plugins/js_composer/assets/css/js_composer_tta.min.css?ver=6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='list-style-css' href='https://jeemain.nta.nic.in/wp-content/plugins/awas-shortcode/assets/css/list-style.min.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='component-helper-css' href='https://jeemain.nta.nic.in/wp-content/plugins/awas-shortcode/assets/css/component-helper.css?ver=6.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='flexslider-css' href='https://jeemain.nta.nic.in/wp-content/plugins/js_composer/assets/lib/bower/flexslider/flexslider.min.css?ver=6.1' type='text/css' media='all' />
+<link rel='stylesheet' id='footer-style-css' href='https://jeemain.nta.nic.in/wp-content/plugins/awas-shortcode/assets/css/footer-logo-carousel.css?ver=6.1.1' type='text/css' media='all' />
+<script type='text/javascript' id='jquery-common-js-js-extra'>
+/* <![CDATA[ */
+var AwaasData = {"ajaxUrl":"https:\/\/jeemain.nta.nic.in\/wp-admin\/admin-ajax.php","isUserLoggedIn":""};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/plugins/common_utility/js/common.js?ver=1.1' id='jquery-common-js-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-includes/js/jquery/ui/core.min.js?ver=1.13.2' id='jquery-ui-core-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.13.2' id='jquery-ui-datepicker-js'></script>
+<script type='text/javascript' id='jquery-ui-datepicker-js-after'>
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Close","currentText":"Today","monthNames":["January","February","March","April","May","June","July","August","September","October","November","December"],"monthNamesShort":["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"nextText":"Next","prevText":"Previous","dayNames":["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],"dayNamesShort":["Sun","Mon","Tue","Wed","Thu","Fri","Sat"],"dayNamesMin":["S","M","T","W","T","F","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+</script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/ui/jquery.flexslider.js?ver=1.1' id='jquery-flexslider-js-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/easyResponsiveTabs.js?ver=1.1' id='jseasyResponsiveTabs-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/jquery.fancybox.js?ver=1.1' id='jqueryfancyboxjs-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/style.switcher.js?ver=1.1' id='styleswitcherjs-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/menu.js?ver=1.1' id='menujs-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/table.min.js?ver=1.1' id='tablejs-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/custom.js?ver=1.1' id='custom-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/themes/sdo-theme/js/extra.js?ver=1.1' id='extrajs-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js?ver=6.1' id='wpb_composer_front_js-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/plugins/js_composer/assets/lib/vc_accordion/vc-accordion.min.js?ver=6.1' id='vc_accordion_script-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/plugins/js_composer/assets/lib/vc-tta-autoplay/vc-tta-autoplay.min.js?ver=6.1' id='vc_tta_autoplay_script-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/plugins/js_composer/assets/lib/vc_tabs/vc-tabs.min.js?ver=6.1' id='vc_tabs_script-js'></script>
+<script type='text/javascript' src='https://jeemain.nta.nic.in/wp-content/plugins/js_composer/assets/lib/bower/flexslider/jquery.flexslider-min.js?ver=6.1' id='flexslider-js'></script>
+<script type="text/javascript">(function() {
+				var expirationDate = new Date();
+				expirationDate.setTime( expirationDate.getTime() + 31536000 * 1000 );
+				document.cookie = "pll_language=en; expires=" + expirationDate.toUTCString() + "; path=/; domain=jeemain.nta.nic.in";
+			}());</script><script>
+jQuery(document).ready(function($){
+  jQuery('body').find('a.flex-pause').attr('href',"javascript:void(0)");
+    $('.flex-direction-nav a.flex-prev').attr({'title' : 'Previous','aria-label':'Previous'});
+    $('.flex-pauseplay a.flex-pause').attr({'title' : 'Play/Pause','aria-label':'Play/Pause'});
+    $('.flex-direction-nav a.flex-next').attr({'title' : 'Next','aria-label':'Next'});
+});
+</script>
+<!--ECounselling Instance-->
+</body>
+</html>

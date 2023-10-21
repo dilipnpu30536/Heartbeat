@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <title>Railway Dashboard</title>
+      <link rel="stylesheet" href="styles.css">
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+   </head>
+   <body>
+      <div class="btn">
+         <span class="fas fa-bars"></span>
+      </div>
+      <nav class="sidebar">
+         <div class="text">
+            Menu
+         </div>
+         <ul>
+            <li class="active"><a href="#">Home</a></li>
+            <li>
+               <a href="#" class="feat-btn">Features
+               <span class="fas fa-caret-down first"></span>
+               </a>
+               <ul class="feat-show">
+                  <li><a href="#">Pages</a></li>
+                  <li><a href="#">Elements</a></li>
+               </ul>
+            </li>
+            <li>
+               <a href="#" class="serv-btn">Pages
+               <span class="fas fa-caret-down second"></span>
+               </a>
+               <ul class="serv-show">
+                  <li><a href="Plan Head.html">Plan Head</a></li>
+                  <li><a href="BR DR.html">BR DR</a></li>
+                  <li><a href="MPR 2016-17.html">MPR</a></li>
+                  <li><a href="pcdo 16-17.html">PCDO</a></li>
+               </ul>
+            </li>
+            <li><a href="#">Graph</a></li>
+            <li><a href="#">Table</a></li>
+            <li><a href="Register.html">Register</a></li>
+            <li><a href="login.html">login</a></li>
+            <li><a href="Contact Us.html">Contact Us</a></li>
+            
+            <li><a href="#">About</a></li>
+         </ul>
+      </nav>
+      <div class="content">
+         <div class="header">
+      <script>
+         $('.btn').click(function(){
+           $(this).toggleClass("click");
+           $('.sidebar').toggleClass("show");
+         });
+           $('.feat-btn').click(function(){
+             $('nav ul .feat-show').toggleClass("show");
+             $('nav ul .first').toggleClass("rotate");
+           });
+           $('.serv-btn').click(function(){
+             $('nav ul .serv-show').toggleClass("show1");
+             $('nav ul .second').toggleClass("rotate");
+           });
+           $('nav ul li').click(function(){
+             $(this).addClass("active").siblings().removeClass("active");
+           });
+      </script>
+   </body>
+</html>
